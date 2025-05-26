@@ -1,0 +1,8 @@
+com\bookstore\hooks\Hooks.class
+com\bookstore\hooks\TestTearDown.class
+com\bookstore\runners\SmokeTestRunner.class
+com\bookstore\stepdefs\AuthSteps.class
+com\bookstore\runners\TestRunner.class
+com\bookstore\hooks\TestSetup.class
+com\bookstore\runners\RegressionTestRunner.class
+com\bookstore\stepdefs\BookManagementSteps.class

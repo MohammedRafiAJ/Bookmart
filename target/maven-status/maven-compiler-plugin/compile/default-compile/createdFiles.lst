@@ -1,0 +1,12 @@
+com\bookStore\utils\RestUtil.class
+com\bookStore\utils\ConfigLoader.class
+com\bookStore\service\SignInService.class
+com\bookStore\base\Review.class
+com\bookStore\base\User.class
+com\bookStore\service\ReviewService.class
+com\bookStore\utils\ApiRequestUtil.class
+com\bookStore\service\SignUpService.class
+com\bookStore\config\ConfigReader.class
+com\bookStore\base\Book.class
+com\bookStore\config\ApiConstants.class
+com\bookStore\service\BookService.class

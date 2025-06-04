@@ -1,0 +1,63 @@
+name: Bookstore API CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    env:
+      CI: true
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r bookstore-main/bookstore/requirements.txt
+
+      - name: Start FastAPI server in background
+        run: |
+          cd bookstore-main/bookstore
+          uvicorn main:app --host 127.0.0.1 --port 8000 --reload &
+          sleep 5
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+
+      - name: Install Allure CLI
+        run: |
+          sudo apt-add-repository ppa:qameta/allure -y
+          sudo apt-get update
+          sudo apt-get install allure -y
+
+      - name: Build and run tests
+        run: |
+          mvn clean test
+
+      - name: Generate Allure Report
+        if: always()
+        run: |
+          mvn allure:report
+          mkdir -p allure-report
+          cp -r target/site/allure-maven-plugin/* allure-report/
+
+      - name: Upload Allure Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: AllureReport
+          path: allure-report

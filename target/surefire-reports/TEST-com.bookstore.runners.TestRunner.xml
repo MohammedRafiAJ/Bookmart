@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.bookstore.runners.TestRunner" time="36.345" tests="25" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Visual Studio Code Projects\wanted\bookstore-api-test-master\target\test-classes;D:\Visual Studio Code Projects\wanted\bookstore-api-test-master\target\classes;C:\Users\moham\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\moham\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\moham\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\moham\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-java\7.11.2\cucumber-java-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-core\7.11.2\cucumber-core-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-gherkin\7.11.2\cucumber-gherkin-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.2\cucumber-gherkin-messages-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\moham\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\moham\.m2\repository\io\cucumber\datatable\7.11.2\datatable-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-plugin\7.11.2\cucumber-plugin-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\docstring\7.11.2\docstring-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\moham\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\moham\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\moham\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-junit\7.11.2\cucumber-junit-7.11.2.jar;C:\Users\moham\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\moham\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\moham\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.21.0\allure-cucumber7-jvm-2.21.0.jar;C:\Users\moham\.m2\repository\io\cucumber\gherkin\26.0.0\gherkin-26.0.0.jar;C:\Users\moham\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\moham\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\moham\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\moham\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\moham\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\moham\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\moham\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\moham\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\moham\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\moham\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\moham\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\moham\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\moham\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\moham\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\moham\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\moham\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\moham\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\moham\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\moham\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\moham\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="D:\Windows Applications\JAVA JDK\bin"/>
+    <property name="sun.java.command" value="C:\Users\moham\AppData\Local\Temp\surefire6111187025189254433\surefirebooter-20250604111652236_3.jar C:\Users\moham\AppData\Local\Temp\surefire6111187025189254433 2025-06-04T11-16-51_883-jvmRun1 surefire-20250604111652236_1tmp surefire_0-20250604111652236_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Visual Studio Code Projects\wanted\bookstore-api-test-master\target\test-classes;D:\Visual Studio Code Projects\wanted\bookstore-api-test-master\target\classes;C:\Users\moham\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\moham\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\moham\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\moham\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-java\7.11.2\cucumber-java-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-core\7.11.2\cucumber-core-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-gherkin\7.11.2\cucumber-gherkin-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.2\cucumber-gherkin-messages-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\moham\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\moham\.m2\repository\io\cucumber\datatable\7.11.2\datatable-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-plugin\7.11.2\cucumber-plugin-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\docstring\7.11.2\docstring-7.11.2.jar;C:\Users\moham\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\moham\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\moham\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\moham\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\moham\.m2\repository\io\cucumber\cucumber-junit\7.11.2\cucumber-junit-7.11.2.jar;C:\Users\moham\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\moham\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\moham\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.21.0\allure-cucumber7-jvm-2.21.0.jar;C:\Users\moham\.m2\repository\io\cucumber\gherkin\26.0.0\gherkin-26.0.0.jar;C:\Users\moham\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\moham\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\moham\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\moham\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\moham\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\moham\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\moham\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\moham\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\moham\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\moham\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\moham\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\moham\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\moham\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\moham\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\moham\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\moham\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\moham\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\moham\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\moham\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\moham\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\moham"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="D:\Windows Applications\JAVA JDK"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Visual Studio Code Projects\wanted\bookstore-api-test-master"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\moham\AppData\Local\Temp\surefire6111187025189254433\surefirebooter-20250604111652236_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.1+9-30"/>
+    <property name="user.name" value="moham"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\moham\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\moham\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="D:\Visual Studio Code Projects\wanted\bookstore-api-test-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\Windows Applications\JAVA JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\moham\bin;D:\Windows Applications\Git\Git\mingw64\bin;D:\Windows Applications\Git\Git\usr\local\bin;D:\Windows Applications\Git\Git\usr\bin;D:\Windows Applications\Git\Git\usr\bin;D:\Windows Applications\Git\Git\mingw64\bin;D:\Windows Applications\Git\Git\usr\bin;C:\Users\moham\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Windows Applications\Python IDE\Scripts;D:\Windows Applications\Python IDE;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\Windows Applications\JAVA JDK\bin;D:\Windows Applications\Node JS;C:\ProgramData\chocolatey\bin;D:\Windows Applications\Git\Git\cmd;C:\Program Files\apache-maven\bin;D:\Windows Applications\cursor\resources\app\bin;D:\Windows Applications\cursor\resources\app\bin;C:\Users\moham\scoop\shims;C:\Users\moham\AppData\Local\Microsoft\WindowsApps;D:\Windows Applications\Visual Studio Code\Microsoft VS Code\bin;C:\Users\moham\AppData\Roaming\npm;D:\Windows Applications\cursor\resources\app\bin;C:\Users\moham\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;D:\Windows Applications\Git\Git\usr\bin\vendor_perl;D:\Windows Applications\Git\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.1+9-30"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="Create a book with valid details #1" classname="Book Management API Validations" time="6.562">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @CreateBook @regression @smoke
+Scenario Outline: Create a book with valid details                                                              # src/test/resources/features/BookManagementStep.feature:15
+[DEBUG] Signup payload: com.bookStore.base.User@51549490
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMTUzODFAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4MjB9.b6MgykG0es4mXcy5tSqbOq3evSWD19gmLvZMmLTXILU","token_type":"bearer"}
+  Given a user signs up and logs in successfully                                                                # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  Given a book payload with name "MyBook1", author "Alice", year 2024, and summary "A story begins" is prepared # com.bookstore.stepdefs.BookManagementSteps.prepareBookPayload(java.lang.String,java.lang.String,int,java.lang.String)
+[DEBUG] Book creation payload: Book{id=21264, name='MyBook1', author='Alice', published_year=2024, book_summary='A story begins', cover_image_url='null'}
+[DEBUG] Book creation response status: 200
+[DEBUG] Book creation response body: {"book_summary":"A story begins","id":21264,"author":"Alice","published_year":2024,"name":"MyBook1"}
+  When user sends a request to create a new book                                                                # com.bookstore.stepdefs.BookManagementSteps.createBookRequest()
+  Then validate book creation response code is 200 and response contains book details                           # com.bookstore.stepdefs.BookManagementSteps.validateCreateBookResponse(int)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/moham/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/moham/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+]]></system-err>
+  </testcase>
+  <testcase name="Create a book with valid details #2" classname="Book Management API Validations" time="1.674">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @CreateBook @regression @smoke
+Scenario Outline: Create a book with valid details                                                                # src/test/resources/features/BookManagementStep.feature:16
+[DEBUG] Signup payload: com.bookStore.base.User@6cc64028
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMjE2MjRAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4MjN9.tm2x0Ak39vICUeialEqEZ3-1hN81QwXmpeV3dM93iLQ","token_type":"bearer"}
+  Given a user signs up and logs in successfully                                                                  # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  Given a book payload with name "AutomationQA", author "Bob", year 2025, and summary "Test coverage" is prepared # com.bookstore.stepdefs.BookManagementSteps.prepareBookPayload(java.lang.String,java.lang.String,int,java.lang.String)
+[DEBUG] Book creation payload: Book{id=23051, name='AutomationQA', author='Bob', published_year=2025, book_summary='Test coverage', cover_image_url='null'}
+[DEBUG] Book creation response status: 200
+[DEBUG] Book creation response body: {"book_summary":"Test coverage","id":23051,"author":"Bob","published_year":2025,"name":"AutomationQA"}
+  When user sends a request to create a new book                                                                  # com.bookstore.stepdefs.BookManagementSteps.createBookRequest()
+  Then validate book creation response code is 200 and response contains book details                             # com.bookstore.stepdefs.BookManagementSteps.validateCreateBookResponse(int)
+]]></system-out>
+  </testcase>
+  <testcase name="Attempt to create a book with missing name" classname="Book Management API Validations" time="1.803">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @CreateBookMissingName @regression
+Scenario Outline: Attempt to create a book with missing name                                                      # src/test/resources/features/BookManagementStep.feature:26
+[DEBUG] Signup payload: com.bookStore.base.User@15d114ce
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMjMyOTBAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4MjR9.fTUXBHNyqvAwFniufcE7FKwp1aw008aWdbEI8YiED-I","token_type":"bearer"}
+  Given a user signs up and logs in successfully                                                                  # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  Given a book payload missing name with id 1, author "Alice", year 2024, and summary "Missing title" is prepared # com.bookstore.stepdefs.BookManagementSteps.a_book_payload_missing_name_with_id_author_year_and_summary_is_prepared(java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+[DEBUG] Book creation payload: Book{id=1, name='null', author='Alice', published_year=2024, book_summary='Missing title', cover_image_url='null'}
+[DEBUG] Book creation response status: 500
+[DEBUG] Book creation response body: Internal Server Error
+  When user sends a request to create a new book                                                                  # com.bookstore.stepdefs.BookManagementSteps.createBookRequest()
+  Then validate book creation fails with code 500 and error message contains "Internal Server Error"              # com.bookstore.stepdefs.BookManagementSteps.validate_book_creation_fails_with_code_and_error_message_contains(java.lang.Integer,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Fetch all books and validate list" classname="Book Management API Validations" time="1.419">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @FetchAllBooks @regression
+Scenario: Fetch all books and validate list                                  # src/test/resources/features/BookManagementStep.feature:29
+[DEBUG] Signup payload: com.bookStore.base.User@28fc1132
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMjQ5MDZAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4MjZ9.sPnNJZpRyzvK6Mvlieu3owODmI_5lXL4VQmjKGcseyU","token_type":"bearer"}
+  Given a user signs up and logs in successfully                             # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  When user fetches all books                                                # com.bookstore.stepdefs.BookManagementSteps.user_fetches_all_books()
+  Then verify response code is 200 and list contains the book name "MyBook1" # com.bookstore.stepdefs.BookManagementSteps.verify_response_code_is_and_list_contains_the_book_name(java.lang.Integer,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Fetch book by valid ID" classname="Book Management API Validations" time="1.649">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @FetchBookById @regression @smoke
+Scenario: Fetch book by valid ID                                                                                  # src/test/resources/features/BookManagementStep.feature:34
+[DEBUG] Signup payload: com.bookStore.base.User@1118d539
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMjY0ODVAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4Mjd9.r1b7CSHJJae0_Z1n8CJ24MvL7WrUHSdLOut9OW2STZg","token_type":"bearer"}
+  Given a user signs up and logs in successfully                                                                  # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  Given a book payload with name "FetchTestBook", author "QA", year 2023, and summary "To be fetched" is prepared # com.bookstore.stepdefs.BookManagementSteps.prepareBookPayload(java.lang.String,java.lang.String,int,java.lang.String)
+[DEBUG] Book creation payload: Book{id=27868, name='FetchTestBook', author='QA', published_year=2023, book_summary='To be fetched', cover_image_url='null'}
+[DEBUG] Book creation response status: 200
+[DEBUG] Book creation response body: {"book_summary":"To be fetched","id":27868,"author":"QA","published_year":2023,"name":"FetchTestBook"}
+  When user sends a request to create a new book                                                                  # com.bookstore.stepdefs.BookManagementSteps.createBookRequest()
+  And user fetches book by valid ID                                                                               # com.bookstore.stepdefs.BookManagementSteps.fetchBookByValidId()
+  Then verify single book fetch response code is 200 and book name is "FetchTestBook"                             # com.bookstore.stepdefs.BookManagementSteps.validateSingleBookResponse(int,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Fetch book using invalid ID" classname="Book Management API Validations" time="1.227">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @FetchBookByInvalidId @regression
+Scenario: Fetch book using invalid ID                                             # src/test/resources/features/BookManagementStep.feature:41
+[DEBUG] Signup payload: com.bookStore.base.User@65da01f4
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMjgwOTlAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4Mjl9.MkwDzJ72MA8h2rD3-OzM02KRhzkrDijmzjby0GVjVZw","token_type":"bearer"}
+  Given a user signs up and logs in successfully                                  # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  When user fetches book by invalid ID                                            # com.bookstore.stepdefs.BookManagementSteps.user_fetches_book_by_invalid_id()
+  Then validate not found response with code 404 and message contains "not found" # com.bookstore.stepdefs.BookManagementSteps.validate_not_found_response_with_code_and_message_contains(java.lang.Integer,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Create a book with cover image" classname="Book Management API Validations" time="1.639">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @BookWithImage @regression
+Scenario: Create a book with cover image                                                                                                                       # src/test/resources/features/BookManagementStep.feature:46
+[DEBUG] Signup payload: com.bookStore.base.User@5fef0c19
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMjkzODlAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4MzB9.Mcs7QV-o2KxpjSF-wtJN9lOQWkcc6Pkf7ex8QV-zxbI","token_type":"bearer"}
+  Given a user signs up and logs in successfully                                                                                                               # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  Given a book payload with name "BookWithImage", author "Alice", year 2024, summary "With cover", and cover image "src/test/resources/sample.jpg" is prepared # com.bookstore.stepdefs.BookManagementSteps.prepareBookPayloadWithImage(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)
+[DEBUG] Book creation payload: Book{id=30769, name='BookWithImage', author='Alice', published_year=2024, book_summary='With cover', cover_image_url='null'}, image: src\test\resources\sample.jpg
+[DEBUG] Book creation response status: 500
+[DEBUG] Book creation response body: Internal Server Error
+  When user sends a request to create a new book with image                                                                                                    # com.bookstore.stepdefs.BookManagementSteps.createBookRequestWithImage()
+]]></system-out>
+  </testcase>
+  <testcase name="Search books by author" classname="Book Management API Validations" time="1.223">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @SearchByAuthor @regression
+Scenario: Search books by author                             # src/test/resources/features/BookManagementStep.feature:51
+[DEBUG] Signup payload: com.bookStore.base.User@584ca390
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMzA5OTRAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4MzJ9.dRdb-B6tT0DN2crFor0_dNyuCr5eb14bqhbUgcXQwHM","token_type":"bearer"}
+  Given a user signs up and logs in successfully             # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  When user searches for books by author "Alice"             # com.bookstore.stepdefs.BookManagementSteps.user_searches_books_by_author(java.lang.String)
+  Then verify the search result contains book name "MyBook1" # com.bookstore.stepdefs.BookManagementSteps.verify_search_result_contains_book(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Search books by year range" classname="Book Management API Validations" time="1.308">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @SearchByYearRange @regression
+Scenario: Search books by year range                           # src/test/resources/features/BookManagementStep.feature:56
+[DEBUG] Signup payload: com.bookStore.base.User@39652a30
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMzIyNDFAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4MzN9.xl948YIIDKJ0oj-GkQaZNA_arYT9hTdlkoq2ZylbPFQ","token_type":"bearer"}
+  Given a user signs up and logs in successfully               # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  When user searches for books published between 2024 and 2025 # com.bookstore.stepdefs.BookManagementSteps.user_searches_books_by_year_range(int,int)
+  Then verify the search result contains book name "MyBook1"   # com.bookstore.stepdefs.BookManagementSteps.verify_search_result_contains_book(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Search books by keyword" classname="Book Management API Validations" time="1.224">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @SearchByKeyword @regression
+Scenario: Search books by keyword                            # src/test/resources/features/BookManagementStep.feature:61
+[DEBUG] Signup payload: com.bookStore.base.User@5e193ef5
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMzM1NTNAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4MzR9.IE1V0TH15Bm8N-3EZ6y9TayoUo--uW6O4OddO1r8Rnw","token_type":"bearer"}
+  Given a user signs up and logs in successfully             # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  When user searches for books with keyword "story"          # com.bookstore.stepdefs.BookManagementSteps.user_searches_books_by_keyword(java.lang.String)
+  Then verify the search result contains book name "MyBook1" # com.bookstore.stepdefs.BookManagementSteps.verify_search_result_contains_book(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Search books by all filters" classname="Book Management API Validations" time="1.249">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @SearchByAllFilters @regression
+Scenario: Search books by all filters                                                       # src/test/resources/features/BookManagementStep.feature:66
+[DEBUG] Signup payload: com.bookStore.base.User@6238d5e0
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMzQ3NzZAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4MzV9.0ncZCn_INyWl8ml-1YPE_21LR78Z3xQWMWkH0dQf1lE","token_type":"bearer"}
+  Given a user signs up and logs in successfully                                            # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  When user searches for books by author "Alice", year range 2024-2024, and keyword "story" # com.bookstore.stepdefs.BookManagementSteps.user_searches_books_by_all_filters(java.lang.String,int,int,java.lang.String)
+  Then verify the search result contains book name "MyBook1"                                # com.bookstore.stepdefs.BookManagementSteps.verify_search_result_contains_book(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Post and fetch a review for a book" classname="Book Management API Validations" time="1.388">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @ReviewBook @regression
+Scenario: Post and fetch a review for a book                                                                         # src/test/resources/features/BookManagementStep.feature:71
+[DEBUG] Signup payload: com.bookStore.base.User@ca7e37f
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMzYwMzNAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4Mzd9.V-Gj1u5NWblgsDC0SS_-WOJupqz0Le0Imp8_PYHz6YA","token_type":"bearer"}
+  Given a user signs up and logs in successfully                                                                     # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  Given a book payload with name "ReviewBook", author "Alice", year 2024, and summary "A book to review" is prepared # com.bookstore.stepdefs.BookManagementSteps.prepareBookPayload(java.lang.String,java.lang.String,int,java.lang.String)
+[DEBUG] Book creation payload: Book{id=37237, name='ReviewBook', author='Alice', published_year=2024, book_summary='A book to review', cover_image_url='null'}
+[DEBUG] Book creation response status: 200
+[DEBUG] Book creation response body: {"book_summary":"A book to review","id":37237,"author":"Alice","published_year":2024,"name":"ReviewBook"}
+  When user sends a request to create a new book                                                                     # com.bookstore.stepdefs.BookManagementSteps.createBookRequest()
+  And user posts a review with rating 5 and text "Excellent book!" for the created book                              # com.bookstore.stepdefs.BookManagementSteps.user_posts_review_for_created_book(int,java.lang.String)
+  And user fetches reviews for the created book                                                                      # com.bookstore.stepdefs.BookManagementSteps.user_fetches_reviews_for_created_book()
+  When user posts a review with rating 3 and text "Good but not great" for the created book                          # com.bookstore.stepdefs.BookManagementSteps.user_posts_review_for_created_book(int,java.lang.String)
+  And user fetches average rating for the created book                                                               # com.bookstore.stepdefs.BookManagementSteps.user_fetches_average_rating_for_created_book()
+]]></system-out>
+  </testcase>
+  <testcase name="Get personalized book recommendations" classname="Book Management API Validations" time="1.267">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @Recommendations @regression
+Scenario: Get personalized book recommendations  # src/test/resources/features/BookManagementStep.feature:80
+[DEBUG] Signup payload: com.bookStore.base.User@4ee8051c
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMzc0MjRAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4Mzh9.ywODkI3-S8N5uBNMjYz6E7XISk-yYvwEQefXV2TKfGg","token_type":"bearer"}
+  Given a user signs up and logs in successfully # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  When user fetches book recommendations         # com.bookstore.stepdefs.BookManagementSteps.user_fetches_book_recommendations()
+]]></system-out>
+  </testcase>
+  <testcase name="Audit log for book update" classname="Book Management API Validations" time="1.399">
+    <system-out><![CDATA[
+@BookManagementFeature @regression @AuditLog @regression
+Scenario: Audit log for book update                                                                              # src/test/resources/features/BookManagementStep.feature:85
+[DEBUG] Signup payload: com.bookStore.base.User@11e71181
+[DEBUG] Signup response status: 200
+[DEBUG] Signup response body: {"message":"User created successfully"}
+[DEBUG] Login response status: 200
+[DEBUG] Login response body: {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib29rZmxvd191c2VyXzE3NDkwMTYwMzg2ODNAbWFpbC5jb20iLCJleHAiOjE3NDkwMTc4Mzl9.wmJEgcC4do08uPZXCUTHd3q_311BbDFJBv7BeTZHPR4","token_type":"bearer"}
+  Given a user signs up and logs in successfully                                                                 # com.bookstore.stepdefs.BookManagementSteps.signUpAndLogin()
+  Given a book payload with name "AuditBook", author "Alice", year 2024, and summary "To be updated" is prepared # com.bookstore.stepdefs.BookManagementSteps.prepareBookPayload(java.lang.String,java.lang.String,int,java.lang.String)
+[DEBUG] Book creation payload: Book{id=39833, name='AuditBook', author='Alice', published_year=2024, book_summary='To be updated', cover_image_url='null'}
+[DEBUG] Book creation response status: 200
+[DEBUG] Book creation response body: {"book_summary":"To be updated","id":39833,"author":"Alice","published_year":2024,"name":"AuditBook"}
+  When user sends a request to create a new book                                                                 # com.bookstore.stepdefs.BookManagementSteps.createBookRequest()
+[DEBUG] Book creation payload: Book{id=39833, name='AuditBook', author='Alice', published_year=2024, book_summary='To be updated', cover_image_url='null'}
+[DEBUG] Book creation response status: 500
+[DEBUG] Book creation response body: Internal Server Error
+  When user sends a request to create a new book                                                                 # com.bookstore.stepdefs.BookManagementSteps.createBookRequest()
+  And user fetches audit logs for the created book                                                               # com.bookstore.stepdefs.BookManagementSteps.user_fetches_audit_logs_for_the_created_book()
+]]></system-out>
+  </testcase>
+  <testcase name="Login attempt before signup should return error" classname="User Sign In and Sign Up API Validations" time="0.028">
+    <system-out><![CDATA[
+@UserSignUpFlowFeature @regression @LoginBeforeSignUp @regression @smoke
+Scenario: Login attempt before signup should return error                                       # src/test/resources/features/UserSignUpFlowFeature.feature:5
+  When user tried to login with noSignUpUser credentials into book store system                 # com.bookstore.stepdefs.AuthSteps.loginWithoutSignup()
+  Then verify the login response code is 400 and message contains "Incorrect email or password" # com.bookstore.stepdefs.AuthSteps.validateLogin(int,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Login attempt with missing parameters should return error" classname="User Sign In and Sign Up API Validations" time="0.623">
+    <system-out><![CDATA[
+@UserSignUpFlowFeature @regression @LoginAPIValidationWithMissingParam @regression
+Scenario: Login attempt with missing parameters should return error                             # src/test/resources/features/UserSignUpFlowFeature.feature:10
+  When user tried to login with missingParam credentials into book store system                 # com.bookstore.stepdefs.AuthSteps.loginWithMissingParams()
+  Then verify the login response code is 400 and message contains "Incorrect email or password" # com.bookstore.stepdefs.AuthSteps.validateLogin(int,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Sign up as a new user and login with the same credentials" classname="User Sign In and Sign Up API Validations" time="1.269">
+    <system-out><![CDATA[
+@UserSignUpFlowFeature @regression @SignUpAndLogin @regression @smoke
+Scenario: Sign up as a new user and login with the same credentials                          # src/test/resources/features/UserSignUpFlowFeature.feature:15
+  Given Sign up to the book store as the new user with email and password                    # com.bookstore.stepdefs.AuthSteps.prepareSignUpUser()
+  When do the sign up with valid credentials                                                 # com.bookstore.stepdefs.AuthSteps.doValidSignup()
+  Then validate signup response code is 200 and message contains "User created successfully" # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+  When user tried to login with valid credentials into book store system                     # com.bookstore.stepdefs.AuthSteps.loginWithValidCreds()
+  Then verify the login response code is 200 and message contains "access_token"             # com.bookstore.stepdefs.AuthSteps.validateLogin(int,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Signup and Login with multiple dynamic users #1" classname="User Sign In and Sign Up API Validations" time="1.344">
+    <system-out><![CDATA[
+@UserSignUpFlowFeature @regression @SignUpMultipleUsersWithLogin @regression
+Scenario Outline: Signup and Login with multiple dynamic users                               # src/test/resources/features/UserSignUpFlowFeature.feature:31
+  Given I prepare a unique user with email prefix "vakq1" and password "vakq1"               # com.bookstore.stepdefs.AuthSteps.prepareDynamicUser(java.lang.String,java.lang.String)
+  Then validate signup response code is 200 and message contains "User created successfully" # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+  When user tries to login using the same email prefix "vakq1" and password "vakq1"          # com.bookstore.stepdefs.AuthSteps.loginDynamicUser(java.lang.String,java.lang.String)
+  Then verify the login response code is 200 and message contains "access_token"             # com.bookstore.stepdefs.AuthSteps.validateLogin(int,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Signup and Login with multiple dynamic users #2" classname="User Sign In and Sign Up API Validations" time="1.186">
+    <system-out><![CDATA[
+@UserSignUpFlowFeature @regression @SignUpMultipleUsersWithLogin @regression
+Scenario Outline: Signup and Login with multiple dynamic users                               # src/test/resources/features/UserSignUpFlowFeature.feature:32
+  Given I prepare a unique user with email prefix "userapi" and password "pass123"           # com.bookstore.stepdefs.AuthSteps.prepareDynamicUser(java.lang.String,java.lang.String)
+  Then validate signup response code is 200 and message contains "User created successfully" # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+  When user tries to login using the same email prefix "userapi" and password "pass123"      # com.bookstore.stepdefs.AuthSteps.loginDynamicUser(java.lang.String,java.lang.String)
+  Then verify the login response code is 200 and message contains "access_token"             # com.bookstore.stepdefs.AuthSteps.validateLogin(int,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Signup and Login with multiple dynamic users #3" classname="User Sign In and Sign Up API Validations" time="1.27">
+    <system-out><![CDATA[
+@UserSignUpFlowFeature @regression @SignUpMultipleUsersWithLogin @regression
+Scenario Outline: Signup and Login with multiple dynamic users                               # src/test/resources/features/UserSignUpFlowFeature.feature:33
+  Given I prepare a unique user with email prefix "qaauto" and password "Password@1"         # com.bookstore.stepdefs.AuthSteps.prepareDynamicUser(java.lang.String,java.lang.String)
+  Then validate signup response code is 200 and message contains "User created successfully" # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+  When user tries to login using the same email prefix "qaauto" and password "Password@1"    # com.bookstore.stepdefs.AuthSteps.loginDynamicUser(java.lang.String,java.lang.String)
+  Then verify the login response code is 200 and message contains "access_token"             # com.bookstore.stepdefs.AuthSteps.validateLogin(int,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Signup with new email id and verify the success and error response" classname="User Sign In and Sign Up API Validations" time="0.819">
+    <system-out><![CDATA[
+@UserSignUpFlowFeature @regression @SignUpToBookStore @regression
+Scenario: Signup with new email id and verify the success and error response                 # src/test/resources/features/UserSignUpFlowFeature.feature:36
+  Given Sign up to the book store as the new user with email and password                    # com.bookstore.stepdefs.AuthSteps.prepareSignUpUser()
+  When do the sign up with valid credentials                                                 # com.bookstore.stepdefs.AuthSteps.doValidSignup()
+  Then validate signup response code is 200 and message contains "User created successfully" # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+  And do the sign up with old credentials                                                    # com.bookstore.stepdefs.AuthSteps.doSignupWithOldCredentials()
+  Then validate signup response code is 400 and message contains "Email already registered"  # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+  And do the sign up with newPasswordOnly credentials                                        # com.bookstore.stepdefs.AuthSteps.doSignupWithPasswordOnly()
+  Then validate signup response code is 400 and message contains "Email already registered"  # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Signup validation with duplicate email and same ID" classname="User Sign In and Sign Up API Validations" time="1.27">
+    <system-out><![CDATA[
+@UserSignUpFlowFeature @regression @SignUpDuplicateValidation @regression
+Scenario: Signup validation with duplicate email and same ID                                 # src/test/resources/features/UserSignUpFlowFeature.feature:46
+  Given I prepare a unique user with email prefix "vakq" and password "vakq"                 # com.bookstore.stepdefs.AuthSteps.prepareDynamicUser(java.lang.String,java.lang.String)
+  Then validate signup response code is 200 and message contains "User created successfully" # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+  When I sign up with the same email and a new ID using prefix "vakq" and password "vakq"    # com.bookstore.stepdefs.AuthSteps.signupWithSameEmail(java.lang.String,java.lang.String)
+  Then validate signup response code is 400 and message contains "Email already registered"  # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+  When I sign up with the same ID and a new email using prefix "vakq" and password "vakq"    # com.bookstore.stepdefs.AuthSteps.signupWithSameId(java.lang.String,java.lang.String)
+  Then validate signup response code is 500 and message contains "Internal Server Error"     # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Signup using multiple dynamic email prefixes and passwords #1" classname="User Sign In and Sign Up API Validations" time="0.681">
+    <system-out><![CDATA[
+@UserSignUpFlowFeature @regression @SignUpMultipleUsers @regression
+Scenario Outline: Signup using multiple dynamic email prefixes and passwords                 # src/test/resources/features/UserSignUpFlowFeature.feature:61
+  Given I prepare a unique user with email prefix "vakq1" and password "vakq1"               # com.bookstore.stepdefs.AuthSteps.prepareDynamicUser(java.lang.String,java.lang.String)
+  Then validate signup response code is 200 and message contains "User created successfully" # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Signup using multiple dynamic email prefixes and passwords #2" classname="User Sign In and Sign Up API Validations" time="0.728">
+    <system-out><![CDATA[
+@UserSignUpFlowFeature @regression @SignUpMultipleUsers @regression
+Scenario Outline: Signup using multiple dynamic email prefixes and passwords                 # src/test/resources/features/UserSignUpFlowFeature.feature:62
+  Given I prepare a unique user with email prefix "userapi" and password "pass123"           # com.bookstore.stepdefs.AuthSteps.prepareDynamicUser(java.lang.String,java.lang.String)
+  Then validate signup response code is 200 and message contains "User created successfully" # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Signup using multiple dynamic email prefixes and passwords #3" classname="User Sign In and Sign Up API Validations" time="0.727">
+    <system-out><![CDATA[
+@UserSignUpFlowFeature @regression @SignUpMultipleUsers @regression
+Scenario Outline: Signup using multiple dynamic email prefixes and passwords                 # src/test/resources/features/UserSignUpFlowFeature.feature:63
+  Given I prepare a unique user with email prefix "qaauto" and password "Password@1"         # com.bookstore.stepdefs.AuthSteps.prepareDynamicUser(java.lang.String,java.lang.String)
+  Then validate signup response code is 200 and message contains "User created successfully" # com.bookstore.stepdefs.AuthSteps.validateSignupSuccess(int,java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>
